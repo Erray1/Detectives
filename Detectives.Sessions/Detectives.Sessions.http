@@ -1,0 +1,6 @@
+@Detectives.Sessions_HostAddress = http://localhost:5209
+
+GET {{Detectives.Sessions_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

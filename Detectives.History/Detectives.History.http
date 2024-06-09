@@ -1,0 +1,6 @@
+@Detectives.History_HostAddress = http://localhost:5052
+
+GET {{Detectives.History_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
