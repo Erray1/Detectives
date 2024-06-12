@@ -6,10 +6,11 @@ namespace Detectives.GameService.GamesCache
 {
     public interface IGamesCacheService
     {
-        bool GetGame(string gameId, out GameState gameState);
-        bool OpenGame(GameState game);
-        void CloseGame(string gameId);
-        Result<AddPlayerResult> TryAddPlayer(string gameId, string playerConnectionId);
+        Task UpdateAsync(string gameId, GameState gameState);
+        Task<Result> GetGameAsync(string gameId, out GameState gameState);
+        Result OpenGame(GameState game);
+        Result CloseGame(string gameId);
+        Task<AddPlayerResult> TryAddPlayer(string gameId, string playerConnectionId, string userId);
         Result TryRemovePlayer(string gameId, string playerConnectionId);
         
     }

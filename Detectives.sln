@@ -11,17 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{C22180A6-C0B8-4332-9F88-D7AC652D081D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detectives.GameService", "Detectives.GameService\Detectives.GameService.csproj", "{93DC2D82-6C0D-4F58-BE95-5B717A5AC2D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Detectives.GameService", "Detectives.GameService\Detectives.GameService.csproj", "{93DC2D82-6C0D-4F58-BE95-5B717A5AC2D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detectives.GameManagement", "Detectives.GameManagement\Detectives.GameManagement.csproj", "{F8B324FA-8A47-4302-BB37-3A2AC9016F15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Detectives.GameManagement", "Detectives.GameManagement\Detectives.GameManagement.csproj", "{F8B324FA-8A47-4302-BB37-3A2AC9016F15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detectives.Sessions", "Detectives.Sessions\Detectives.Sessions.csproj", "{F0C50C2D-29C9-4A23-A698-CA5200E1E9E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Detectives.Sessions", "Detectives.Sessions\Detectives.Sessions.csproj", "{F0C50C2D-29C9-4A23-A698-CA5200E1E9E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detectives.Accounts", "Detectives.Accounts\Detectives.Accounts.csproj", "{8F1C467C-26FE-4D00-BD35-84ED2207C9F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Detectives.Accounts", "Detectives.Accounts\Detectives.Accounts.csproj", "{8F1C467C-26FE-4D00-BD35-84ED2207C9F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detectives.History", "Detectives.History\Detectives.History.csproj", "{6BCAC373-A885-44C8-9431-855DC98BBBE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Detectives.History", "Detectives.History\Detectives.History.csproj", "{6BCAC373-A885-44C8-9431-855DC98BBBE6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blazor", "Blazor", "{DAAD56A0-2E9E-4F6F-BCAB-99068B073E7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Detectives.Entities", "Detectives.Entities\Detectives.Entities.csproj", "{03CC12D7-8CF3-49C2-B46F-D4EFED3ABD69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{6BCAC373-A885-44C8-9431-855DC98BBBE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BCAC373-A885-44C8-9431-855DC98BBBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BCAC373-A885-44C8-9431-855DC98BBBE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CC12D7-8CF3-49C2-B46F-D4EFED3ABD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CC12D7-8CF3-49C2-B46F-D4EFED3ABD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CC12D7-8CF3-49C2-B46F-D4EFED3ABD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CC12D7-8CF3-49C2-B46F-D4EFED3ABD69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{8F1C467C-26FE-4D00-BD35-84ED2207C9F6} = {D6061CCC-1723-4781-8156-BA2EED6FE9E2}
 		{6BCAC373-A885-44C8-9431-855DC98BBBE6} = {D6061CCC-1723-4781-8156-BA2EED6FE9E2}
 		{DAAD56A0-2E9E-4F6F-BCAB-99068B073E7B} = {C22180A6-C0B8-4332-9F88-D7AC652D081D}
+		{03CC12D7-8CF3-49C2-B46F-D4EFED3ABD69} = {D6061CCC-1723-4781-8156-BA2EED6FE9E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15442E5B-71F0-449E-8347-2A51A4DF1181}

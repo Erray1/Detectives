@@ -1,6 +1,7 @@
 ﻿namespace Detectives.GameService.Domain
 {
-    public enum GameType
+    public struct GameMove
     {
+        public int Value;
     }
 }

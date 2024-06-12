@@ -5,10 +5,6 @@ namespace Detectives.GameService.Domain
 {
     public class GameState
     {
-        public static GameState Default(GameType gameType)
-        {
-            
-        }
         public static GameState FromRequest(CreateGameRequest request)
         {
             return new GameState()
@@ -26,5 +22,6 @@ namespace Detectives.GameService.Domain
         public bool IsOpen { get; set; } = true;
         public int MaxPlayers { get; set; }
         public int CurrentPlayers => ConnectedUsers.Count;
+        public string PlayerToMoveConnectionId {  get; set; } = string.Empty;
     }
 }

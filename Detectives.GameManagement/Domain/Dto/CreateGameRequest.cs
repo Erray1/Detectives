@@ -1,10 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Detectives.Entities;
+using System.ComponentModel.DataAnnotations;
 
-namespace Detectives.GameService.Domain.Communication;
+namespace Detectives.GameManagement.Domain.Dto;
 public class CreateGameRequest
 {
-    public string? GameName { get; set; }
-    public string? GameId { get; set; }
+    [Required]
+    public string GameName { get; set; }
+    public string GameId { get; set; } = Guid.NewGuid().ToString();
 
     [Range(2, 8, ErrorMessage = $"Количество игроков должно быть в отрезке от 2 до 8")]
     public int MaxPlayers { get; set; }
